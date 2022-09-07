@@ -1,0 +1,53 @@
+#container{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 40px;
+    background-image: url(https://www.clickpost.ai/hubfs/featured%20images/Updated%20blog%20banner%20images%20Mar%2022/195%29Best-10-Shopify-Translation-Apps.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    text-align: center;
+}
+#outdiv{
+    /* background-color: white; */
+    border: 2px solid rgb(58, 58, 102);
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    /* margin-bottom: 30px; */
+    color: rgb(248, 33, 33);
+}
+#input,#output{
+    flex:1;
+    /* margin: 5%; */
+    height: 300px;
+    padding: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* background-color: rgb(197, 190, 193); */
+    border-radius: 10px;
+}
+#input-text,#outputContent{
+    height: 250px;
+    width: 90%;
+    border: 0px;
+    font-weight: bold;
+    /* background-color: transparent; 
+    opacity: 0.5;
+    color: black!important; */
+    /* background-color: rgb(195, 195, 202); */
+}
+#in_lang,#out_lang{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 20px;
+    
+}
+*{
+font-family: cambria;
+font-size: 30px;
+}

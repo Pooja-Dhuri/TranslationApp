@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h2>Translator App</h2>
+    <div id="container">
+        <div id="input">
+            <select name="in_lang" id="in_lang">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="ko">korien</option>
+                <option value="ja">Japnese</option>
+                <option value="fr">French</option>
+                
+
+            </select>
+            <!-- <input oninput="debounce(1000)"/> -->
+         <textarea oninput="debounce(Translate,1000)"name="input-text" id="input-text"></textarea>
+
+
+        </div>
+        <div id="output">
+            <select name="out_lang" id="out_lang">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="ko">korien</option>
+                <option value="ko">korien</option>
+                <option value="ja">Japnese</option>
+                <option value="fr">French</option>
+            </select>
+            <div id="outdiv"><p id="outputContent"></p></div>
+        </div>
+    </div>
+
+    <!-- <div class="words" contenteditable>
+        <p id="p"></p>
+      </div>
+      <button id="btn">Voice Start</button>
+      <button id="btn2">Voice Stop</button> -->
+  
+</body>
+</html>
+<script src="index.js"></script>
