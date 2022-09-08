@@ -28,6 +28,6 @@ This is an App which translate the font return in one laguage to another languag
 
 
 ### Github Repository : https://github.com/Pooja-Dhuri/TranslationApp
-### Live Link : translation-app-clone.netlify.app/
+### Live Link : https://translation-app-clone.netlify.app/
 
 
